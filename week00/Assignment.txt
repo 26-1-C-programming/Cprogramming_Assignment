@@ -1,0 +1,9 @@
+과제 제출 방법
+
+1. 코드 작성
+2. cmd 창 오픈
+3. `git add .`
+4. `git commit -m "이름 : n주차 과제"` 입력
+5. `git push` 입력
+
+* `git status`로 자신의 branch인지 확인 필수 *
