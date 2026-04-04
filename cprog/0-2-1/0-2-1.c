@@ -10,8 +10,7 @@ void main()
 	b = a % 4;
 	c = a % 100;
 	d = a % 400;
-	if (b = 0);
-	else if (c > 0) { printf("%d 년은 윤년입니다", a); }
-	else if (d = 0) { printf("%d 년은 윤년입니다", a); }
-	else { printf("%d년은 윤년이 아닙니다", a); }
+	
+	if ((b == 0 && c > 0)||(d == 0)){ printf("%d 년은 윤년입니다", a); }
+    else { printf("%d년은 윤년이 아닙니다", a); }
 }
