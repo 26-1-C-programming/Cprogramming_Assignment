@@ -10,7 +10,7 @@ int main(void) {
         printf("잘못된 입력입니다.");
     }
     else {
-        if (num1 > num2 + num3 || num2 > num1 + num3 || num3 > num2 + num1) {
+        if (num1 >= num2 + num3 || num2 >= num1 + num3 || num3 >= num2 + num1) {
             printf("삼각형이 아닙니다.");
         }
         else {
