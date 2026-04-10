@@ -7,7 +7,7 @@ int main() {
 	double average = 0;
 
 	/* Write Your Code */
-	int sum = arr[0];
+	int sum = 0;
 	min = arr[0];
 	for (int i = 0; i < 10; i++) {
 		sum += arr[i];

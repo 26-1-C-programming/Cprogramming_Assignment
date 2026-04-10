@@ -15,7 +15,7 @@ int main(void) {
 			printf(" ");
 		}
 		for (int k = num; k > i; k--) { //숫자 역순 출력
-			printf("%d", k);
+			printf("%d", k-i);
 		}
 		printf("\n");
 	}
