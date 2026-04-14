@@ -11,11 +11,11 @@ int main(void) {
 	//공백 역순으로 출력
 	//숫자 역순으로 출력
 	for (int i = 0; i < num; i++) { //줄 반복
-		for (int j = 0; j < i; j++) { //공백 역순(0,1,2,3,4...) 출력
+		for (int j = 0; j < 2*i; j++) { //공백 역순(0,1,2,3,4...) 출력
 			printf(" ");
 		}
 		for (int k = num; k > i; k--) { //숫자 역순 출력
-			printf("%d", k-i);
+			printf("%d ", k-i);
 		}
 		printf("\n");
 	}
