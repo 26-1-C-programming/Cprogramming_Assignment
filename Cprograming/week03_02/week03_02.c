@@ -40,7 +40,7 @@ int strcmp(const char str1[], const char str2[]) {
 }
 
 int main() {
-    char str1   [100] = { 0 };
+    char str1[100] = { 0 };
     char str2[100] = { 0 };
 
     printf("첫 번째 문자열을 입력하시오 : ");

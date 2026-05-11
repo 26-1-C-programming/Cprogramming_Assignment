@@ -13,7 +13,7 @@ int main() {
     char string[100] = { 0 };
 
     printf("문자열을 입력하시오 : ");
-    scanf("%[^\n]s", string);
+    scanf("%[^\n]", string);
 
     printf("문자열의 길이 : %d", strlen(string));
 
