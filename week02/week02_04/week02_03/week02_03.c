@@ -7,10 +7,12 @@ int main()
 	int b;
 	int c;
 
+	printf("첫번째 숫자 입력=> ");
+	scanf("%d", &b);
 	printf("무슨 연산? 덧셈 = 1, 뺄셈 = 2, 곱셈 = 3, 나눗셈 = 4 ==> ");
 	scanf("%d", &a);
-	printf("연산할 두 수 입력: \n");
-	scanf("%d %d", &b, &c);
+	printf("두번째 숫자 입력=>: \n");
+	scanf("%d", &c);
 
 	if (a == 1)
 		printf("%d", b + c);

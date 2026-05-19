@@ -1,0 +1,7 @@
+﻿오후 5:46에 빌드를 시작함...
+1>------ 빌드 시작: 프로젝트: week02_03, 구성: Debug x64 ------
+1>  week02_03.c
+1>C:\Users\김강하\Desktop\c programming\Cprogramming_Assignment\week02\week02_04\week02_03\week02_03.c(24,10): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+1>  week02_03.vcxproj -> C:\Users\김강하\Desktop\c programming\Cprogramming_Assignment\week02\week02_04\x64\Debug\week02_03.exe
+========== 빌드: 1개 성공, 0개 실패, 0개 최신 상태, 0개 건너뜀 ==========
+========== 빌드이(가) 오후 5:47에 완료되었으며, 00.813 초이(가) 걸림 ==========
