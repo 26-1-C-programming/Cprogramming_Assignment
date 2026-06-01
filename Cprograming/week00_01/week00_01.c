@@ -2,21 +2,13 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
+#include<string.h>
 int main(void)
 {
-	int first, second, third, fourth;
-	
-	printf("첫 번째 계산할 값을 입력하세요 ==> ");
-	scanf("%d", &first);
-	printf("두 번째 계산할 값을 입력하세요 ==> ");
-	scanf("%d", &second);
-	printf("세 번째 계산할 값을 입력하세요 ==> ");
-	scanf("%d", &third);
-	printf("네 번째 계산할 값을 입력하세요 ==> ");
-	scanf("%d", &fourth);
-	
-	printf(" %d + %d + %d + %d = %d", first, second, third, fourth, first + second + third + fourth);
+	char arr[5] = { 'c','h','a', '\0'};
+	printf("%s", arr);
+
+	if (strcmp(arr, "cha") == 0)printf("1");
 	
 	return 0;
 	}
